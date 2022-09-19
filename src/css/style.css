@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #d6d5d5;
+}
+
+.card {
+    width: 343px;
+    max-height: 443px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #eeeeee;
+}
+.card_img {
+    width: 145px;
+    display: block;
+    margin: 0 auto;
+}
+.card_title {
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: uppercase;
+    
+}
+.card_text {
+    margin-top: 28px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    height: 130px;
+    overflow: hidden;
+}
+span{
+    display: block;
+    margin-top: 40px;
+    position: absolute;
+    content: '';
+    width: 343px;
+    border: 2px solid #b0a5a5;
+}
+.card_link {
+    display: block;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #4343FF;
+    text-decoration: none;
+}
+.card_link::before{
+    content: '<';
+    padding: 6px;
+    color: #4343FF;
+}
+.card_link::after{
+    content: '>';
+    padding: 6px;
+    color: #4343FF;
+}
